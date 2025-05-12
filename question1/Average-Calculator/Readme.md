@@ -59,28 +59,25 @@ This endpoint accepts the following `id` values:
 * `e` for even numbers
 * `r` for random numbers
 
-### Example Request
+### 📸 Example Requests & Responses
 
-To fetch prime numbers:
+To fetch prime numbers:  
+`GET http://localhost:9876/numbers/p`  
+![Prime](screenshots/prime.jpg)
 
-```bash
-GET http://localhost:9876/numbers/p
-```
+To fetch Fibonacci numbers:  
+`GET http://localhost:9876/numbers/f`  
+![Fibonacci](screenshots/fibonacci.jpg)
 
-![alt text](<WhatsApp Image 2025-05-12 at 19.18.35_49a71093.jpg>)
+To fetch even numbers:  
+`GET http://localhost:9876/numbers/e`  
+![Even](screenshots/even.jpg)
 
-```bash
-GET http://localhost:9876/numbers/f
-```
-![alt text](<WhatsApp Image 2025-05-12 at 19.18.53_9011edbb.jpg>)
-```bash
-GET http://localhost:9876/numbers/e
-```
-![alt text](<WhatsApp Image 2025-05-12 at 19.19.33_f07216b9.jpg>)
-```bash
-GET http://localhost:9876/numbers/r
-```
-![alt text](<WhatsApp Image 2025-05-12 at 19.19.49_930ed130.jpg>)
+To fetch random numbers:  
+`GET http://localhost:9876/numbers/r`  
+![Random](screenshots/random.jpg)
+
+
 ## Error Handling
 
 * **400 Bad Request**: If an invalid `id` is provided.
