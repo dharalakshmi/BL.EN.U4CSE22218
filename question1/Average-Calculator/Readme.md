@@ -69,8 +69,18 @@ GET http://localhost:9876/numbers/p
 
 ![alt text](<WhatsApp Image 2025-05-12 at 19.18.35_49a71093.jpg>)
 
-
-
+```bash
+GET http://localhost:9876/numbers/f
+```
+![alt text](<WhatsApp Image 2025-05-12 at 19.18.53_9011edbb.jpg>)
+```bash
+GET http://localhost:9876/numbers/e
+```
+![alt text](<WhatsApp Image 2025-05-12 at 19.19.33_f07216b9.jpg>)
+```bash
+GET http://localhost:9876/numbers/r
+```
+![alt text](<WhatsApp Image 2025-05-12 at 19.19.49_930ed130.jpg>)
 ## Error Handling
 
 * **400 Bad Request**: If an invalid `id` is provided.
