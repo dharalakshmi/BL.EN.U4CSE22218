@@ -67,16 +67,9 @@ To fetch prime numbers:
 GET http://localhost:9876/numbers/p
 ```
 
-### Example Response
+![alt text](<WhatsApp Image 2025-05-12 at 19.18.35_49a71093.jpg>)
 
-```json
-{
-  "prev": [1, 2, 3],
-  "curr": [5, 7, 11],
-  "nums": [5, 7, 11],
-  "avg": 7.67
-}
-```
+
 
 ## Error Handling
 
